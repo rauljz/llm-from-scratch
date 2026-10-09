@@ -9,7 +9,7 @@ a (aprox.) lo mismo que calculamos a mano contando en bigram_counts.py.
 import torch
 import torch.nn.functional as F
 
-words = open("../data/names.txt").read().splitlines()
+words = open("data/names.txt").read().splitlines()
 
 chars = sorted(set("".join(words)))
 stoi = {s: i + 1 for i, s in enumerate(chars)}

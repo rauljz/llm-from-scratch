@@ -8,7 +8,7 @@ y para medir la calidad del modelo con negative log-likelihood.
 
 import torch
 
-words = open("../data/names.txt").read().splitlines()
+words = open("data/names.txt").read().splitlines()
 print(f"dataset: {len(words)} nombres, ej: {words[:5]}")
 
 # vocabulario: 26 letras + '.' como token de inicio/fin

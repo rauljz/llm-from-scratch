@@ -10,7 +10,7 @@ Hardware: Mac con chip Apple M5 (sin GPU NVIDIA) → entrenamos con PyTorch + ba
 
 - [x] `00_setup` — entorno, tensores, autograd básico
 - [x] `01_bigram` — el modelo de lenguaje más simple posible (conteo de bigramas → versión con red neuronal), tokenización a nivel de carácter, embeddings, cross-entropy loss
-- [ ] `02_mlp` — modelo de lenguaje con MLP y contexto de varios caracteres (estilo makemore)
+- [x] `02_mlp` — modelo de lenguaje con MLP y contexto de varios caracteres (estilo makemore)
 - [ ] `03_attention` — self-attention implementada a mano (Q/K/V, softmax, escalado, máscara causal)
 - [ ] `04_transformer` — bloque transformer completo (multi-head attention + feed-forward + residuales + layernorm) → GPT pequeño
 - [ ] `05_train_gpt` — entrenar el GPT pequeño de principio a fin sobre un dataset de texto y generar texto nuevo
